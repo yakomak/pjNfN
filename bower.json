@@ -1,0 +1,24 @@
+{
+  "name": "pjNfN",
+  "description": "новый проект с нуля )",
+  "main": "appp.js",
+  "authors": [
+    "m37"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gt1"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "uikit": "^2.27.2"
+  }
+}

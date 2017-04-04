@@ -1,6 +1,8 @@
 <html ng-app>
   <head>
+    <meta charset="utf-8">
     <title> New Project (from Null) </title>
+    <link href="1.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
   </head> 
   
@@ -10,15 +12,20 @@
         <label>Имя:</label>
         <input type="text" ng-model="yourName" placeholder="Введите свое имя">
         <hr>
-        <h1>Привет {{yourName}}!</h1>
+        <!--<h1>Привет {{yourName}}!</h1>-->
       </form>
       <form id="PETITION">
         <h1>ПРОШЕНИЕ / PETITION<h1><hr>
-        <label>Название группы (страна, город, приход) 
- Group Name (location: country, city, parish):</label>
-        <input type="text" placeholder="Введите тут">
+        <h4>Название группы (страна, город, приход) / Group Name (location: country, city, parish):</h4>
+        <input type="text" placeholder="Введите Название">
+        <hr><h4>ФИО старшего группы (имена) / Senior group (person in charge)</h4>
+        <input type="text" placeholder="Введите ФИО">
+        <hr><h4>Номер телефона / Contact:</h4>
+        <input type="text" placeholder="Введите телефон">
         <hr>
+        <input type="submit" name="sbmt" value="Send">
       </form>
+      
     </div>
   </body>  
 </html> 

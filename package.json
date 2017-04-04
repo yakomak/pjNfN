@@ -1,0 +1,18 @@
+{
+  "name": "pjnfn",
+  "version": "1.0.0",
+  "description": "новый проект с нуля )",
+  "main": "servak.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gt1"
+  },
+  "keywords": [
+    "gt1"
+  ],
+  "author": "m37",
+  "license": "MIT"
+}
